@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Bridge The Gap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/frontend/css/style.css" />
+    <link rel="stylesheet" href="/frontend/css/header.css" />
+    <link rel="stylesheet" href="/frontend/css/hero.css" />
+    <link rel="stylesheet" href="/frontend/css/util.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <h1 class="header__logo">
+          <a href="index.html" class="header__logo-link">Bridge The Gap</a>
+        </h1>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="index.html" class="header__link">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="#input" class="header__link">Songs</a>
+          </li>
+          <li class="header__item">
+            <a href="about.html" class="header__link">About</a>
+          </li>
+        </ul>
+        <a href="contact.html" class="header__cta button">Contact</a>
+        <button class="header__toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <div class="mobile__header">
+      <ul class="mobile__list">
+        <li class="mobile__item">
+          <a href="index.html" class="mobile__link">Home</a>
+        </li>
+        <li class="mobile__item">
+          <a href="#input" class="mobile__link">Songs</a>
+        </li>
+        <li class="mobile__item">
+          <a href="about.html" class="mobile__link">About</a>
+        </li>
+        <li class="mobile__item">
+          <a href="contact.html" class="mobile__link">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">Bridge The Gap</h1>
+        <p class="hero__description">
+          For guitarists looking to learn their next favourite song!
+        </p>
+      </section>
+
+      <section id="input" class="input container">
+        <form action="" method="post" class="input__form">
+          <label for="genre" class="input__label">Genre: </label>
+          <select name="genre" id="genre" class="input__select">
+            <option value="Rock" class="input__option-genre">Rock</option>
+            <option value="Pop" class="input__option-genre">Pop</option>
+            <option value="Country" class="input__option-genre">Country</option>
+            <option value="Jazz" class="input__option-genre">Jazz</option>
+          </select>
+          <label for="difficulty" class="input__label">Difficulty: </label>
+          <select name="difficulty" id="difficulty" class="input__select">
+            <option value="Beginner" class="input__option-difficulty">
+              Beginner
+            </option>
+            <option value="Intermediate" class="input__option-difficulty">
+              Intermediate
+            </option>
+            <option value="Advanced" class="input__option-difficulty">
+              Advanced
+            </option>
+          </select>
+          <label for="key" class="input__label">Key: </label>
+          <select name="key" id="key" class="input__select">
+            <option value="A Minor" class="input__option-key">A Minor</option>
+            <option value="A Major" class="input__option-key">A Major</option>
+            <option value="B Minor" class="input__option-key">B Minor</option>
+            <option value="B Major" class="input__option-key">B Major</option>
+            <option value="C Minor" class="input__option-key">C Minor</option>
+            <option value="C Major" class="input__option-key">C Major</option>
+            <option value="C# Minor" class="input__option-key">C# Minor</option>
+            <option value="C# Major" class="input__option-key">C# Major</option>
+            <option value="D Minor" class="input__option-key">D Minor</option>
+            <option value="D Major" class="input__option-key">D Major</option>
+            <option value="D# Minor" class="input__option-key">D# Minor</option>
+            <option value="D# Major" class="input__option-key">D# Major</option>
+            <option value="E Minor" class="input__option-key">E Minor</option>
+            <option value="E Major" class="input__option-key">E Major</option>
+            <option value="F Minor" class="input__option-key">F Minor</option>
+            <option value="F Major" class="input__option-key">F Major</option>
+            <option value="F# Minor" class="input__option-key">F# Minor</option>
+            <option value="F# Major" class="input__option-key">F# Major</option>
+            <option value="G Minor" class="input__option-key">G Minor</option>
+            <option value="G Major" class="input__option-key">G Major</option>
+            <option value="G# Minor" class="input__option-key">G# Minor</option>
+            <option value="G# Major" class="input__option-key">G# Major</option>
+            <option value="Ab Minor" class="input__option-key">Ab Minor</option>
+            <option value="Ab Major" class="input__option-key">Ab Major</option>
+            <option value="Bb Minor" class="input__option-key">Bb Minor</option>
+            <option value="Bb Major" class="input__option-key">Bb Major</option>
+            <option value="Db Minor" class="input__option-key">Db Minor</option>
+            <option value="Db Major" class="input__option-key">Db Major</option>
+            <option value="Eb Minor" class="input__option-key">Eb Minor</option>
+            <option value="Eb Major" class="input__option-key">Eb Major</option>
+          </select>
+          <label for="tempo" class="input__label">Tempo: </label>
+          <select name="tempo" id="tempo" class="input__select">
+            <option value="Slow" class="input__option-tempo">Slow</option>
+            <option value="Medium" class="input__option-tempo">Medium</option>
+            <option value="Fast" class="input__option-tempo">Fast</option>
+          </select>
+          <button class="input__button" type="button">Submit</button>
+        </form>
+      </section>
+
+      <section class="output container">
+        <div class="output__container"></div>
+      </section>
+    </main>
+
+    <script src="/frontend/js/script.js"></script>
+  </body>
+</html>
