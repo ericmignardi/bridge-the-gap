@@ -1,5 +1,6 @@
 .header {
     padding: 1rem;
+    background-color: var(--clr-light);
 }
 
 .header .header__nav {
@@ -65,7 +66,7 @@
     height: 100%;
     width: 100%;
     z-index: 999;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     text-align: center;

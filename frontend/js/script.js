@@ -76,6 +76,7 @@ const displaySongs = (songs) => {
 
         // Create all child elements first
         const title = document.createElement('h3');
+        title.classList.add('output__title');
         title.textContent = song.title;
 
         const genre = document.createElement('p');
@@ -101,3 +102,26 @@ const displaySongs = (songs) => {
         container.appendChild(card);
     });
 };
+
+// const hero = document.querySelector('.hero')
+
+// function callbackFunction(entries) {
+//     entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//             console.log(entry.target.id)
+//             observer.unobserve(entry.target)
+//         }
+//     })
+// }
+
+// const options = {
+//     rootMargin: "0px",
+//     threshold: 0.5
+// }
+
+// const observer = new IntersectionObserver(
+//     callbackFunction,
+//     options
+// )
+
+// observer.observe(hero)

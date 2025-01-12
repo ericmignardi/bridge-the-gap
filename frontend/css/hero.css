@@ -1,10 +1,11 @@
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/frontend/public/hero.jpg") center/cover no-repeat;
-    padding: 10rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/frontend/public/hero-2.jpg") center/cover no-repeat;
+    padding: 2rem 1rem;
 }
 
 .hero .hero__title {
-    font-size: var(--size-8xl);
+    font-family: "Imperial Script", serif;
+    font-size: var(--size-6xl);
     color: var(--clr-light);
     text-align: center;
 }
@@ -12,6 +13,8 @@
 .hero .hero__description {
     color: var(--clr-light);
     text-align: center;
+    opacity: 0;
+    animation: textEffect 1s normal forwards;
 }
 
 /* XS */
@@ -25,9 +28,15 @@
 } */
 
 /* M */
-/* @media (min-width: 768px) {
-
-} */
+@media (min-width: 768px) {
+    .hero {
+        padding: 8rem 4rem;
+    }
+    
+    .hero .hero__title {
+        font-size: var(--size-8xl);
+    }
+}
 
 /* L */
 /* @media (min-width: 1024px) {
@@ -43,3 +52,18 @@
 /* @media (min-width: 1536px) {
 
 } */
+
+@keyframes textEffect {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}

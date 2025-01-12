@@ -1,0 +1,89 @@
+.input {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid var(--clr-dark);
+}
+
+.input .input__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    text-align: center;
+}
+
+.input .input__form .input__label {
+}
+
+.input .input__form .input__label .input__select {
+    
+}
+
+.input .input__form .input__label .input__select .input__option-genre {
+}
+
+.input .input__form .input__label .input__select .input__option-difficulty {
+
+}
+
+
+.input .input__form .input__label .input__select .input__option-key {
+
+}
+
+
+.input .input__form .input__label .input__select .input__option-tempo {
+
+}
+
+
+.input .input__form .input__label .input__select .input__button {
+
+}
+
+/* XS */
+/* @media (min-width: 475px) {
+
+} */
+
+/* S */
+/* @media (min-width: 640px) {
+
+} */
+
+/* M */
+@media (min-width: 768px) {
+    .input {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    
+    .input .input__form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+
+/* L */
+/* @media (min-width: 1024px) {    
+
+} */
+
+/* XL */
+/* @media (min-width: 1280px) {
+
+} */
+
+/* XXL */
+/* @media (min-width: 1536px) {
+
+} */

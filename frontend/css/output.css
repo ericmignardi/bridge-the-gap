@@ -1,0 +1,59 @@
+.output {
+    padding: 1rem 0.5rem;
+}
+
+.output .output__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.output .output__container .output__card {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: 1 / 6;
+    border: 1px solid var(--clr-dark);
+    border-radius: 5px;
+    color: var(--clr-dark);
+    background-color: white;
+    padding: 1rem 0.5rem;
+    text-align: center;
+}
+
+.output .output__container .output__card .output__title {
+    color: var(--clr-indigo);
+}
+
+/* XS */
+/* @media (min-width: 475px) {
+
+} */
+
+/* S */
+/* @media (min-width: 640px) {
+
+} */
+
+/* M */
+@media (min-width: 768px) {
+    .output {
+        padding: 2rem 1rem;
+    }
+}
+
+/* L */
+/* @media (min-width: 1024px) {    
+
+} */
+
+/* XL */
+/* @media (min-width: 1280px) {
+
+} */
+
+/* XXL */
+/* @media (min-width: 1536px) {
+
+} */
