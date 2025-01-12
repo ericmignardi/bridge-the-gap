@@ -150,7 +150,7 @@
     }
     
     .header .header__nav .header__list .header__item .header__link:hover {
-        color: var(--clr-rose);
+        color: var(--clr-indigo);
     }
     
     .header .header__nav .header__cta {

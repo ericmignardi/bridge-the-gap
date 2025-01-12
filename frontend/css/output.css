@@ -1,5 +1,6 @@
 .output {
     padding: 1rem 0.5rem;
+    background-color: var(--clr-light);
 }
 
 .output .output__container {
