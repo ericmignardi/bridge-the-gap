@@ -1,6 +1,6 @@
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/frontend/public/hero.jpg") center/cover no-repeat;
-    padding: 4rem 2rem;
+    padding: 8rem 4rem;
 }
 
 .hero .hero__title {
